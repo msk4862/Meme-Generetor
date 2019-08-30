@@ -55,21 +55,31 @@ header > p {
     text-align: cen
   }
 
+  .meme-form > input {
+    font-size: 20px;
+    text-align: cen
+  }
+
 .meme {
     position: relative;
     width: 90%;
     margin: auto;
+    align-items: center;
 }
 
 .meme > img {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .meme > h2 {
     position: absolute;
-    width: 80%;
-    text-align: center;
+    overflow-wrap: break-word;
+    width: 50%;
     left: 50%;
+    text-align: center;
     transform: translateX(-50%);
     margin: 15px 0;
     padding: 0 5px;
